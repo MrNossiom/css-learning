@@ -1,0 +1,16 @@
+{
+	"name": "navbar-animation",
+	"version": "1.0.0",
+	"author": "Milo Moisson <milomoisson@gmail.com>",
+	"license": "MIT",
+	"private": true,
+	"scripts": {
+		"serve": "serve",
+		"postinstall": "yarn compile:sass",
+		"compile:sass": "sass style.scss:style.min.css"
+	},
+	"devDependencies": {
+		"sass": "^1.32.12",
+		"serve": "^13.0.2"
+	}
+}

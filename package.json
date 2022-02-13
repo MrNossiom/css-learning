@@ -1,16 +1,13 @@
 {
-	"name": "turborepo-basic-shared",
+	"name": "css-learning",
 	"version": "0.0.0",
 	"private": true,
 	"workspaces": [
-		"apps/*",
 		"packages/*"
 	],
 	"scripts": {
-		"build": "turbo run build",
-		"dev": "turbo run dev --parallel",
-		"lint": "turbo run lint",
-		"format": "prettier --write \"**/*.{ts,tsx,md}\""
+		"serve": "turbo run serve --parallel",
+		"format": "prettier --write \"**/*.{html,scss,js,json,ts,md}\""
 	},
 	"devDependencies": {
 		"prettier": "^2.5.1",

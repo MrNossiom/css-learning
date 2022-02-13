@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+
+$bg-primary: rgba(85, 90, 70, 0.3);
+$bg-secondary: rgba(48, 61, 3, 0.4);
+
+body {
+	height: 100vh;
+	background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Kumbh Sans', sans-serif;
+}
+
+.chat-embed {
+	height: 70vh;
+	width: 25vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	background-color: $bg-primary;
+	border-radius: 25px;
+	overflow: hidden;
+
+	.chat-name {
+		height: 55px;
+		width: 100%;
+		background-color: $bg-secondary;
+		padding-left: 15px;
+		display: flex;
+		justify-content: left;
+		align-items: center;
+
+		.chat-icon {
+			height: 35px;
+			width: 35px;
+		}
+
+		span {
+			font-size: 30px;
+			padding-left: 10px;
+			color: whitesmoke;
+		}
+	}
+
+	.chat-messages-box {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		overflow: hidden;
+
+		.message-system {
+		}
+
+		.message-foreign {
+		}
+
+		.message-local {
+		}
+	}
+
+	.chat-send {
+		height: 55px;
+		width: 100%;
+		background-color: $bg-secondary;
+
+		form {
+			height: 100%;
+			width: 100%;
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+
+			input[type='text'] {
+				margin-left: 10px;
+				height: 50%;
+				width: 75%;
+				border: none;
+				border-bottom: 2px solid rgba(0, 20, 0, 0.3);
+				background-color: transparent;
+				font-size: 16px;
+			}
+
+			input[type='submit'] {
+				margin-right: 10px;
+				height: 50%;
+				width: 15%;
+				border: none;
+				background-color: rgba(0, 20, 0, 0.3);
+				border-radius: 50px;
+				color: whitesmoke;
+				font-size: 16px;
+			}
+		}
+	}
+}

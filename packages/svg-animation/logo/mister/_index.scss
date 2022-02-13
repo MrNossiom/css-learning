@@ -1,0 +1,45 @@
+$delay-factor: 0.3s !default;
+
+:root {
+	--bg-color: hsl(201, 51%, 50%);
+	--fill-delay: #{$delay-factor * 9 + 3s};
+}
+
+.logo#mister path {
+	&:nth-child(1) {
+		--stroke-length: 755px;
+		--delay: #{$delay-factor * 1};
+	}
+	&:nth-child(2) {
+		--stroke-length: 246px;
+		--delay: #{$delay-factor * 2};
+	}
+	&:nth-child(3) {
+		--stroke-length: 605px;
+		--delay: #{$delay-factor * 3};
+	}
+	&:nth-child(4) {
+		--stroke-length: 434px;
+		--delay: #{$delay-factor * 4};
+	}
+	&:nth-child(5) {
+		--stroke-length: 419px;
+		--delay: #{$delay-factor * 5};
+	}
+	&:nth-child(6) {
+		--stroke-length: 419px;
+		--delay: #{$delay-factor * 6};
+	}
+	&:nth-child(7) {
+		--stroke-length: 240px;
+		--delay: #{$delay-factor * 7};
+	}
+	&:nth-child(8) {
+		--stroke-length: 434px;
+		--delay: #{$delay-factor * 8};
+	}
+	&:nth-child(9) {
+		--stroke-length: 669px;
+		--delay: #{$delay-factor * 9};
+	}
+}

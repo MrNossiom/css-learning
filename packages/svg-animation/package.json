@@ -1,0 +1,16 @@
+{
+	"name": "svg-logo-animation",
+	"version": "1.0.0",
+	"author": "Milo Moisson <milomoisson@gmail.com>",
+	"license": "MIT",
+	"private": true,
+	"scripts": {
+		"serve": "serve",
+		"postinstall": "yarn compile:sass",
+		"compile:sass": "sass style.scss:style.min.css logo/logo.scss:logo/logo.min.css"
+	},
+	"devDependencies": {
+		"sass": "^1.32.12",
+		"serve": "^11.3.2"
+	}
+}

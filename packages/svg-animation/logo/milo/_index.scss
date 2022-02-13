@@ -1,0 +1,53 @@
+$delay-factor: 0.3s !default;
+
+:root {
+	--bg-color: hsl(348, 83%, 50%);
+	--fill-delay: #{$delay-factor * 9 + 3s};
+}
+
+.logo#milo path {
+	&:nth-child(1) {
+		--stroke-length: 1027px;
+		--delay: #{$delay-factor * 1};
+	}
+	&:nth-child(2) {
+		--stroke-length: 279px;
+		--delay: #{$delay-factor * 2};
+	}
+	&:nth-child(3) {
+		--stroke-length: 497px;
+		--delay: #{$delay-factor * 3};
+	}
+	&:nth-child(4) {
+		--stroke-length: 297px;
+		--delay: #{$delay-factor * 4};
+	}
+	&:nth-child(5) {
+		--stroke-length: 1027px;
+		--delay: #{$delay-factor * 5};
+	}
+	&:nth-child(6) {
+		--stroke-length: 497px;
+		--delay: #{$delay-factor * 6};
+	}
+	&:nth-child(7) {
+		--stroke-length: 279px;
+		--delay: #{$delay-factor * 7};
+	}
+	&:nth-child(8) {
+		--stroke-length: 410px;
+		--delay: #{$delay-factor * 8};
+	}
+	&:nth-child(9) {
+		--stroke-length: 410px;
+		--delay: #{$delay-factor * 9};
+	}
+	&:nth-child(10) {
+		--stroke-length: 497px;
+		--delay: #{$delay-factor * 10};
+	}
+	&:nth-child(11) {
+		--stroke-length: 481px;
+		--delay: #{$delay-factor * 11};
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"name": "neon-button",
+	"version": "1.0.0",
+	"author": "Milo Moisson <milomoisson@gmail.com>",
+	"license": "MIT",
+	"private": true,
+	"scripts": {
+		"serve": "serve"
+	},
+	"devDependencies": {
+		"serve": "^13.0.2"
+	}
+}
